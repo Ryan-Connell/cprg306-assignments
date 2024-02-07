@@ -1,6 +1,6 @@
 // pages/index.js
 import StudentInfo from '../week-2/student-info';
-
+week-3
 export default function Page() {
   return (
     <main>
@@ -9,4 +9,3 @@ export default function Page() {
     </main>
   );
 }
-
