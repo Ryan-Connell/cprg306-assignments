@@ -10,6 +10,16 @@ const RootPage = () => {
           <a>Week 2 Assignment</a>
         </Link>
       </p>
+      <p>
+        <Link href="/week-3" passHref>
+          <a>Week 3 Assignment</a>
+        </Link>
+      </p>
+      <p>
+        <Link href="/week-4" passHref>
+          <a>Week 4 Assignment</a>
+        </Link>
+      </p>
     </div>
   );
 };
