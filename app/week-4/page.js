@@ -1,12 +1,11 @@
-import NewItem from '../components/NewItem';
+import NewItem from "./new-item";
 
-const Page = () => {
+export default function Page() {
   return (
-    <div className="container mx-auto mt-8">
-      <h1 className="text-2xl font-bold mb-4">Add New Item</h1>
-      <NewItem />
-    </div>
+    <main className="">
+      <div>
+        <NewItem />
+      </div>
+    </main>
   );
-};
-
-export default Page;
+}
