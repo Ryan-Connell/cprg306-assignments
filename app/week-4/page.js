@@ -1,4 +1,4 @@
-import NewItem from '../components/NewItem';
+import NewItem from './NewItem';
 
 const Page = () => {
   return (
