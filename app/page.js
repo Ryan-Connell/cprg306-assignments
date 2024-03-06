@@ -1,4 +1,3 @@
-// /app/page.js or /pages/index.js
 import Link from 'next/link';
 
 const RootPage = () => {
@@ -25,9 +24,15 @@ const RootPage = () => {
           <a>Week 5 Assignment</a>
         </Link>
       </p>
+      <p>
+        <Link href="/week-6" passHref>
+          <a>Week 6 Assignment</a>
+        </Link>
+      </p>
     </div>
   );
 };
 
 export default RootPage;
+
 
