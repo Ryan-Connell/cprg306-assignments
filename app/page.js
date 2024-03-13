@@ -29,10 +29,16 @@ const RootPage = () => {
           <a>Week 6 Assignment</a>
         </Link>
       </p>
+      <p>
+        <Link href="/week-7" passHref>
+          <a>Week 7 Assignment</a>
+        </Link>
+      </p>
     </div>
   );
 };
 
 export default RootPage;
+
 
 
