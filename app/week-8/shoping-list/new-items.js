@@ -1,4 +1,5 @@
-"use client"
+'use client'
+
 import { useState } from "react";
 
 export function NewItem({ items, setItems}) {
